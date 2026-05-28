@@ -1,0 +1,8 @@
+/*CREATE DATABASE sistemas;*/
+USE sistemas;
+
+CREATE TABLE tbl_usuario(
+id_usuario INT AUTO_INCREMENT PRIMARY KEY,
+nome_usuario VARCHAR (100),
+email_usuario VARCHAR (100)
+);
